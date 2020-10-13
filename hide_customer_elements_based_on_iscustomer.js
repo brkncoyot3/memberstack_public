@@ -9,7 +9,7 @@
 			
 			// if member "iscustomer" == true, log it
 			if(iscustomer == "true")
-			     console.log("User iscustomer == true");
+			     	console.log("User iscustomer == true");
 			
 			// else "iscustomer" !== true, hide customer elements and set links to #
             		else {
