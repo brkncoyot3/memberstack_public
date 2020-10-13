@@ -1,6 +1,7 @@
 !window.addEventListener('DOMContentLoaded', (e) => {
 	MemberStack.onReady.then(function(member) {
-  		// if member is logged in
+  		
+		// if member is logged in
 		if(member.loggedIn){
         		
 			// grab member "iscustomer" value
@@ -15,6 +16,7 @@
                 		window.location.href = "/not-a-customer";
             		}
 		}
+		
 		// user not logged in
 	  	else{
 			window.location.href = "/";
